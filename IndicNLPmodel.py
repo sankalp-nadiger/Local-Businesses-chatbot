@@ -279,7 +279,7 @@ if predicted_class == 0:  # Nearby places intent
     params = {
         'location': '12.3356607,76.6196155',  # Replace with the user's location coordinates
         'radius': 5000,  # Search radius in meters
-        'key': 'AIzaSyCcoljrzOM4U0IdQe3GxGt6DonG-djcz2k',  # Replace with your actual API key
+        'key': '',  
         'keyword': query,  # Use the extracted query
     }
     response = requests.get(places_api_url, params=params)
